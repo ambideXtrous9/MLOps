@@ -1,5 +1,8 @@
 # MLOps
 Project using MLOps
 
-# This is an Hands On for MLOps On Simple Linear Regression
+# Hands On for MLOps On XGBoost Regression
+
+![image](https://github.com/user-attachments/assets/51dd601f-f3b5-4dda-81dd-c50b5bf275c4)
+
 
