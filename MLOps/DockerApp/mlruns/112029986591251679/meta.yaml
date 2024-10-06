@@ -1,6 +1,0 @@
-artifact_location: file:///workspaces/MLOps/MLOps/DockerApp/mlruns/112029986591251679
-creation_time: 1728212569342
-experiment_id: '112029986591251679'
-last_update_time: 1728212569342
-lifecycle_stage: active
-name: NYC-Taxi-Regressor

@@ -5,7 +5,8 @@ from mlflow import MlflowClient
 import os 
 
 # Set Google application credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS']='/workspaces/MLOps/mlops-437407-225d42b6661e.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'mlops-437407-225d42b6661e.json'
+
 
 # Set MLflow tracking URI
 mlflow.set_tracking_uri("http://34.47.170.249:5000/")
