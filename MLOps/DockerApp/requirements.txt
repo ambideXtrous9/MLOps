@@ -1,0 +1,7 @@
+flask
+gunicorn
+pandas
+mlflow
+xgboost
+google-cloud
+google-cloud-storage

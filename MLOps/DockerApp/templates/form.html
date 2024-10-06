@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Taxi Trip Duration Prediction</title>
+</head>
+<body>
+    <h1>NYC Taxi Trip Duration Prediction</h1>
+    
+    <form method="POST">
+        <label for="PULocationID">PULocationID:</label>
+        <input type="number" name="PULocationID" value="{{ defaults.PULocationID }}" required><br>
+
+        <label for="DOLocationID">DOLocationID:</label>
+        <input type="number" name="DOLocationID" value="{{ defaults.DOLocationID }}" required><br>
+
+        <label for="trip_distance">Trip Distance:</label>
+        <input type="number" step="0.01" name="trip_distance" value="{{ defaults.trip_distance }}" required><br>
+
+        <label for="fare_amount">Fare Amount:</label>
+        <input type="number" step="0.01" name="fare_amount" value="{{ defaults.fare_amount }}" required><br>
+
+        <label for="extra">Extra:</label>
+        <input type="number" step="0.01" name="extra" value="{{ defaults.extra }}" required><br>
+
+        <label for="mta_tax">MTA Tax:</label>
+        <input type="number" step="0.01" name="mta_tax" value="{{ defaults.mta_tax }}" required><br>
+
+        <label for="tip_amount">Tip Amount:</label>
+        <input type="number" step="0.01" name="tip_amount" value="{{ defaults.tip_amount }}" required><br>
+
+        <label for="tolls_amount">Tolls Amount:</label>
+        <input type="number" step="0.01" name="tolls_amount" value="{{ defaults.tolls_amount }}" required><br>
+
+        <label for="improvement_surcharge">Improvement Surcharge:</label>
+        <input type="number" step="0.01" name="improvement_surcharge" value="{{ defaults.improvement_surcharge }}" required><br>
+
+        <label for="total_amount">Total Amount:</label>
+        <input type="number" step="0.01" name="total_amount" value="{{ defaults.total_amount }}" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction is not none %}
+        <h2>Predicted trip duration: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
