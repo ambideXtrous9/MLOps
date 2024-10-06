@@ -10,9 +10,9 @@
 
 ## **Frameworks Used**
 
-### 1.Model Training : Xgboost + Python
-### 2.Web App : Flask
-### 3.Experiment Tracking and Model Registry : mlflow  
-### 4.ML Pipeline : Mage AI 
-### 5.Deployment : Docker and Google Cloud Platform  
-### 6.Storage : Google Storage Bucket + PostgresQL DB
+### 1. Model Training : Xgboost + Python
+### 2. Web App : Flask
+### 3. Experiment Tracking and Model Registry : mlflow  
+### 4. ML Pipeline : Mage AI 
+### 5. Deployment : Docker and Google Cloud Platform  
+### 6. Storage : Google Storage Bucket + PostgresQL DB
